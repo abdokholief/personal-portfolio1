@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    background-color: #e3f2fd;
+    color: #2c3e50;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header with a bold background color */
+header {
+    background-color: #1e88e5;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Navigation styling */
+nav {
+    background-color: #1565c0; /* Darker blue */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #bbdefb;
+    transform: scale(1.1);
+}
+
+/* Section styling */
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #1e88e5;
+    border-bottom: 2px solid #1e88e5;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* About Me Image */
+#profile-pic {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #1e88e5;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Skills Cards with Flexbox */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill-card {
+    background-color: #bbdefb;
+    color: #0d47a1;
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 1px solid #90caf9;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    background-color: #90caf9;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 2px solid #bbdefb;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #1e88e5;
+}
+
+button {
+    background-color: #1e88e5;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1565c0;
+    color: white;
+    margin-top: 40px;
+}
